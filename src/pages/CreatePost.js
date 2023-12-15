@@ -36,7 +36,7 @@ function CreatePost( {isAuth} ) {
         <label> Post: </label>
         <textarea placeholder='Text post please' onChange={(event) => {setPostText(event.target.value)}}></textarea>
         </div>
-        <button onClick={createPost}>Submit Post</button>
+        <button onClick={createPost}>Submit Post 2</button>
       </div>
     </div>
   )
