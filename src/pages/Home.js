@@ -13,7 +13,7 @@ function Home() {
     }
 
     getPosts();
-  });
+  }, []);
 
   return (
     <div className='homePage'>{ postList.map((post) => {
